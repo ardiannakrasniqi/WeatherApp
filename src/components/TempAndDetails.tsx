@@ -2,7 +2,7 @@ import React from "react";
 import {AiOutlineArrowUp, AiOutlineArrowDown } from "react-icons/ai";
 import {BsSun} from "react-icons/bs";
 import {TbSunset2} from "react-icons/tb";
-import {formatToLocalTime, iconUrlFromCode} from "../services/weather";
+import {formatToLocalTime} from "../services/weather";
 import {useWidth} from "../hooks/useWidth";
 import getWeatherIcon from "../services/weatherIcons";
 
@@ -48,7 +48,7 @@ const TempAndDetails = ({ weather: {
         </p>
       </div>
       <div className={`flex text-base font-normal my-4 ${isMobile ? 'flex-col' : 'flex-row'}`}>
-        <div className={'flex flex-row'}>
+        <div className={'flex flex-row justify-center'}>
           <p className={'mt-1 mr-1'}>
             <AiOutlineArrowUp />
           </p>
@@ -70,7 +70,7 @@ const TempAndDetails = ({ weather: {
             |
           </p>
         )}
-        <div className={'flex flex-row'}>
+        <div className={'flex flex-row justify-center'}>
           <p className={'mt-1 mr-1'}>
             <BsSun />
           </p>

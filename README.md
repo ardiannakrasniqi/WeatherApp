@@ -1,3 +1,7 @@
+# Project Description
+
+This TypeScript-based Weather Application provides users with the ability to access weather forecasts for various locations. With features including daily and hourly forecasts, users can stay informed about changing weather conditions. Enjoy the convenience and accuracy of this application as you plan your day or make informed decisions. Happy exploring :)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
